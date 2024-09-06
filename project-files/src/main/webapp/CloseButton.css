@@ -1,0 +1,264 @@
+@charset "ISO-8859-1";
+
+.body {
+
+}
+
+.p1 {
+    font-family: "Lato", sans-sarif;
+}
+
+.WelcomeSection {
+    text-align: center;
+}
+
+.imageLogo {
+    border-radius: 3px;
+}
+
+.form {
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid rgba(192, 192, 192, 0.7);
+    border-radius: 3px;
+    padding: 20px 20px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formInputUsername {
+    width: 49.5%;
+    padding: 12px;
+    margin: 0px auto 18px;
+    font-family: "Lato", sans-sarif;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.formDate {
+    width: 32.6%;
+    padding: 12px;
+    margin: 0px auto 18px;
+    box-sizing: border-box;
+    font-family: "Lato", sans-sarif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.formInputEmail {
+    width: 100%;
+    padding: 12px;
+    margin: 0px auto 18px;
+    font-family: "Lato", sans-sarif;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.formDateSection {
+    color: #606770;
+    font-family: "Lato", sans-sarif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 0px
+}
+
+.formInput:focus {
+    border: 1px solid #928657;
+}
+
+#titleColor {
+    color: #11656f;
+}
+
+img {
+    width: 50%;
+    padding: 0px;
+}
+
+.InformationSection {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid pink;
+}
+
+#p1 {
+    margin: 10px 30px;
+}
+
+.FormSection {
+
+}
+
+#button {
+    display: inline-block;
+    padding: 15px 1em;
+    border-width: 0;
+    border-radius: 5px;
+    font-family: "Lato", sans-sarif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: rgb(163, 149, 97);
+    text-align: center;
+
+    transition: all 0.2s;
+}
+
+.buttonAlign {
+    margin: 0 115px;
+    position: relative;
+}
+
+#button:hover {
+    background-color: #928657;
+}
+
+#button2 {
+    display: inline-block;
+    padding: 15px 1em;
+    margin: 0px auto;
+    border-width: 0;
+    border-radius: 2px;
+    font-family: "Lato", sans-sarif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    background-color: #E1E7EB;
+    text-align: center;
+
+    transition: all 0.2s;
+}
+
+#button2:hover {
+    background-color: #c8d3da;
+}
+
+.loginSignUpSeparator {
+    border-top: 1px solid #cbd2d6;
+    position: relative;
+    margin: 25px 0 10px;
+    text-align: center;
+}
+
+.textInSeparator {
+    background-color: #fff;
+    padding: 0 .5em;
+    position: relative;
+    color: #6c7378;
+    top: -.7em;
+}
+
+a {
+    color: #0070ba;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.forgotPassword {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.view-header {
+    color: #111;
+    font-family: "Lato", sans-sarif;
+    font-size: 26px;
+    line-height: 26px;
+    margin: 0 auto;
+    max-width: 25ch;
+    padding: 0px 0 2px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.headerText {
+    color: #606770;
+    font-family: "Lato", sans-sarif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 24px;
+    margin: 0 0 20px 0;
+}
+
+i {
+    color: black;
+    margin: -40px 0px 145px;
+    cursor: pointer;
+}
+
+.linktext {
+    text-align: center;
+    font-size: 19px;
+    font-family: "Lato", sans-sarif;
+}
+
+.authentication {
+    padding: 15px 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 13px;
+    border-style: solid;
+    width: 600px;
+    border-width: 1px;
+    border-radius: 6px;
+    font-size: 13px;
+    border-style: solid;
+    background-color: #000000;
+    border-width: 1px;
+    color: #1f1f1f;
+    border-color: rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    display: none;
+}
+
+
+.octicon {
+    display: inline-block;
+    overflow: visible !important;
+    vertical-align: text-bottom;
+    fill: #000000;
+}
+
+
+.flash-close {
+    float: right;
+    padding: 0;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+    background: none;
+    color: #000000;
+    border: 0;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+
+
+
+#should-display{
+    display: none;
+}
+
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+
+.flexDirection {
+    flex-direction: row;
+}
