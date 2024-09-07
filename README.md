@@ -24,10 +24,62 @@ This project was developed as a team effort, utilizing:
 - Jira for implementing Agile methodologies, including sprint planning, task assignment, and progress tracking
 
 ## Setup and Installation
-instructions on how to set up and run the project locally
+
+To set up and run the project locally, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/eshaq95/Online-Book-Store-2.git
+   cd Online-Book-Store-2
+   ```
+
+2. **Install Dependencies**: 
+   Ensure Java and Gradle are installed. Install Gradle if needed:
+   ```bash
+   brew install gradle
+   ```
+   or follow instructions from the [Gradle website](https://gradle.org/install/).
+
+3. **Build the Project**: 
+   ```bash
+   ./gradlew build
+   ```
+
+4. **Set Up the Database**:
+   - Install MySQL and configure the connection.
+   - Create a database called `online_book_store`.
+   - Update `src/main/resources/application.properties` with database details.
+
+5. **Run the Application**: 
+   ```bash
+   ./gradlew bootRun
+   ```
+
+6. **Access the Application**: 
+   Open `http://localhost:8080` in your browser.
 
 ## Project Structure
-structure of your project, major components, etc
+
+```
+Online-Book-Store-2/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/                # Java source code
+│   │   │   └── com/
+│   │   │       └── bookstore/    # Main package for application logic
+│   │   ├── resources/
+│   │   │   ├── templates/        # Thymeleaf templates for frontend
+│   │   │   └── application.properties  # Application configuration
+│   └── test/                     # Test files
+│
+├── build.gradle                  # Gradle build configuration
+├── gradlew                       # Gradle wrapper for Linux/Mac
+├── gradlew.bat                   # Gradle wrapper for Windows
+├── settings.gradle               # Gradle settings
+├── README.md                     # Project documentation
+└── .gitignore                    # Git ignore file
+```
 
 ## Future Enhancements
 - Implement user reviews and ratings
